@@ -21,19 +21,25 @@ a:hover {
 }
 
 #name {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
     text-align:center;
     font-size: 12vw;
-    padding-top:50px;
+    top:40px;
+    padding-bottom:20px;
 }
 
 #intro {
+    position:relative;
+    top:140px;
+    min-height:800px;
     width:50%;
     text-align: left;
     font-family: "Lato",sans-serif;
     font-size:5vw;
     line-height:80%;
     letter-spacing:.1em;
-    padding-left:35%;
+    padding-left:30%;
 }
 
 #nav {
